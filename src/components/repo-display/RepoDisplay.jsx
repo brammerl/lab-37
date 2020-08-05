@@ -3,9 +3,6 @@ import { useRepos } from '../../hooks/githubContext';
 
 const RepoDisplay = () => {
  const repos  = useRepos()
-
-
-
 return (
   <ul>
     <h3>Repositories</h3>
